@@ -16,3 +16,4 @@ class TestCalculatorApp:
 
     def test_multiplication(self):
         assert 10 == calculator.multiplication(5, 2)
+
