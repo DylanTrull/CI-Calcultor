@@ -4,6 +4,7 @@ Test for calc app
 
 import calculator
 
+
 class TestCalculatorApp:
     def test_add(self):
         assert 5 == calculator.add(2, 3)
@@ -16,4 +17,3 @@ class TestCalculatorApp:
 
     def test_multiplication(self):
         assert 10 == calculator.multiplication(5, 2)
-
